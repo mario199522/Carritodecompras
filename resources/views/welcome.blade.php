@@ -71,13 +71,17 @@
             
         </style>
     </head>
-    <body>
+    <body style="background-color:#EBDDDD">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-
-                        <a href="{{ url('/home') }}">Productos</a>
+                        <nav aria-label="breadcrumb">
+                                      <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page"><a href="{{ url('/home') }}" style="color: #E38A8A">Productos</a></li>
+                  </ol>
+                     </nav>
+                       
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
@@ -89,18 +93,10 @@
             @endif
         </div>
         <div class="container">
- 
-
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background-image: url(img/balonportada.jpg); background-size: 100%;">
-    <div class="col-md-6 px-0">
-
-        <p class="lead my-3"> <strong>Be what you want to be</strong></p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+<div class="jumbotron"style="background-image: url(img/balonportada.jpg); background-size: 50%" >
+  <h1  style="color: white" class="display-4" >Bienvenidos!</h1>
+  <p style="color: white" class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+</div>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold"></a></p>
     </div>
   </div>
@@ -113,11 +109,11 @@
           <strong class="d-inline-block mb-2 text-primary">Hombres</strong>
           <h3 class="mb-0">England Team</h3>
           <div class="mb-1 text-muted">England 2019 Stadium Away</div>
-          <p class="card-text mb-auto">La camiseta England 2019 Stadium Away combina detalles del equipo con un tejido supertranspirable para mantener la frescura y la transpirabilidad en el campo o en las gradas cuando animas a tu equipo.
+          <p class="card-text mb-auto">La camiseta England 2019 Stadium Away combina detalles del equipo con un tejido supertranspirable para mantener la frescura y la transpirabilidad en el campo.
      </p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa1.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa1.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>
@@ -131,21 +127,26 @@
           <p class="mb-auto">Combina detalles del equipo con un tejido supertranspirable para mantener la frescura y la transpirabilidad en el campo o en las gradas cuando animas a tu equipo.</p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa2.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa2.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>
+
+
     </div>
+
+
+
      <div class="container">
 
-  <div class="row mb-2">
+  <div class="row mb-3">
     <div class="col-md-6">
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-2 text-primary">Niños</strong>
           <h3 class="mb-0">FFF Niños</h3>
           <div class="mb-1 text-muted">FFF 2019 Stadium Home</div>
-          <p class="card-text mb-auto"> La camiseta FFF 2019 Stadium Home está confeccionada con un tejido transpirable que capilariza el sudor para mantener la frescura, la transpirabilidad y la comodidad en el campo y en las gradas.</p>
+          <p class="card-text mb-auto"> La camiseta FFF 2019 Stadium Home está confeccionada con un tejido transpirable que capilariza el sudor para mantener la frescura, la transpirabilidad.</p>
         </div>
         <div class="col-auto d-none d-lg-block">
           <img class="" width="200" height="250" src="img/camisa3.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
@@ -164,7 +165,7 @@
           <p class="mb-auto">Incorpora detalles, como un escudo tejido, que destacan el orgullo por tu equipo. Además, también cuenta con elementos de alto rendimiento como el tejido Nike Breathe</p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa4.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa4.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>

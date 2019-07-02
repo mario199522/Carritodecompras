@@ -11,7 +11,7 @@
       </div>
     </section> --}}
 
-    <h2 style="text-align: center">Productos</h2>
+    <h2 style="text-align: center">Stock</h2>
 
     <div class="album py-5 bg-light">
       <div class="container">
@@ -22,11 +22,13 @@
               <img class="card-img-top" src="img/balon3.jpg" alt="Card image cap">
               {{-- <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap"> --}}
               <div class="card-body">
-                <p class="card-text">Nike RITCH  La Liga </p>
-                <p><strong>$60</strong></p>
+                <p class="card-text">Nike PITCH  La Liga </p>
+                <p><strong>$60</strong></p>                               
+               
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
+                   </center> <a href="#" class="btn btn-success producto" precio="60" titulo="Nike PITCH  La Liga"role="button"><img src="img/add-to-cart.png"/></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -40,9 +42,12 @@
               <div class="card-body">
                 <p class="card-text">Nike 2015 Conmebol</p>
                 <p><strong>$55</strong></p>
+               
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add Carrito</button>
+
+                   </center> <a href="#" class="btn btn-success producto" precio="55" titulo="Nike 2015 Conmebol"role="button"><img src="img/add-to-cart.png"/></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -56,11 +61,15 @@
               <div class="card-body">
                 <p class="card-text">Nike Orden 3 FACUP Final</p>
                 <p><strong>$100</strong></p>
+               
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
-                    
-                  </div>
+                  </center>
+                  
+                    <a href="#" class="btn btn-success producto" precio="100" titulo="Nike Orden 3 FACUP Final"role="button"><img src="img/add-to-cart.png"/>
+                    </a>
+                   </div>
                   <small class="text-muted"></small>
                 </div>
               </div>
@@ -74,11 +83,13 @@
               <div class="card-body">
                 <p class="card-text">
                 Nike ORDEM Oficial 2016</p>
-                <p><strong>$120</strong></p>
+                <p><strong>$120</strong></p>              
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add Carrito</button>
+                  </center>  <a href="#" class="btn btn-success producto" precio="120" titulo="Nike ORDEM Oficial 2016"role="button"><img src="img/add-to-cart.png"/></a>
                   </div>
+                   
                   <small class="text-muted"></small>
                 </div>
               </div>
@@ -92,9 +103,11 @@
                 <p class="card-text">
                 Nike Premier League Strike</p>
                 <p><strong>$75</strong></p>
+               
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
+                   </center> <a href="#" class="btn btn-success producto" precio="75" titulo="Nike Premier League Strike"role="button"><img src="img/add-to-cart.png"/></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -108,9 +121,11 @@
               <div class="card-body">
                 <p class="card-text">Adidas Teslar 18</p>
                 <p><strong>$96</strong></p>
+               
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center> 
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
+                   </center>  <a href="#" class="btn btn-success producto" precio="96" titulo="Adidas Teslar 18"role="button"><img src="img/add-to-cart.png"/></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -123,10 +138,11 @@
               {{-- <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap"> --}}
               <div class="card-body">
                 <p class="card-text">Adidas River Teslar 2018</p>
-                <p><strong>$45</strong></p>
+                 <p><strong>$40</strong></p>
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center> 
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
+                   </center>  <a href="#" class="btn btn-success producto" precio="40" titulo="Adidas River Teslar 2018"role="button"><img src="img/add-to-cart.png"/></a>
                     
                   </div>
                   <small class="text-muted"></small>
@@ -141,10 +157,14 @@
               <div class="card-body">
                 <p class="card-text">Adidas Teslar Sala</p>
                  <p><strong>$30</strong></p>
+                 
                 <div class="d-flex justify-content-between align-items-center">
+                   <center></center> 
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
-                    
+                  
+                 </center>  <a href="#" class="btn btn-success producto" precio="30" titulo="Adidas Teslar Sala"role="button"><img src="img/add-to-cart.png"/></a>
+
+
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -157,10 +177,12 @@
               {{-- <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap"> --}}
               <div class="card-body">
                 <p class="card-text">Adidas Finale Madrid 2019</p>
-                 <p><strong>$45</strong></p>
+                 <p><strong>$150</strong></p>                
                 <div class="d-flex justify-content-between align-items-center">
+                  <center></center> 
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Add carrito</button>
+                    </center> 
+                    <a href="#" class="btn btn-success producto" precio="150" titulo="Adidas Finale Madrid 2019"role="button"><img src="img/add-to-cart.png"/></a>
                     
                   </div>
                   <small class="text-muted"></small>
@@ -174,3 +196,30 @@
     </div>
 
   </main>
+
+
+
+<script src="{{ asset('https://code.jquery.com/jquery-2.1.4.min.js') }}"></script>
+  <script src="{{ asset('js/minicart.js')}}"></script>
+  <script>
+    $('.producto').on('click',function(e){
+        e.stopPropagation();
+        paypal.minicart.cart.add({
+        item_name: $(this).attr("titulo"),
+        amount: $(this).attr("precio"),
+        currency_code: 'USD',
+      
+      });
+    })
+// configuración inicial del carrito 
+    paypal.minicart.render({
+    strings:{
+      button:'Pagar'
+     ,buttonAlt: "Total"
+     ,subtotal: 'Total:'
+     ,empty: 'No hay productos en el carrito'
+    }
+    });   
+  </script
+
+
