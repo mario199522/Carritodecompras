@@ -1,19 +1,9 @@
 <main id="productos" class="container">
 
-    {{-- <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading"></h1>
-        <p class="lead text-muted"></p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
-      </div>
-    </section> --}}
 
-    <h2 style="text-align: center">Stock</h2>
+    <h1 style="text-align: center">Stock</h1>
 
-    <div class="album py-5 bg-light">
+    <div class="album py-5 bg-light" >
       <div class="container">
 
         <div class="row">
@@ -28,7 +18,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <center></center>
                   <div class="btn-group">
-                   </center> <a href="#" class="btn btn-success producto" precio="60" titulo="Nike PITCH  La Liga"role="button"><img src="img/add-to-cart.png"/></a>
+                   </center> <a href="#" class="btn btn-success producto " precio="60" titulo="Nike PITCH  La Liga"role="button" ><img src="img/add-to-cart.png"/></a>
                   </div>
                   <small class="text-muted"></small>
                 </div>
@@ -217,7 +207,7 @@
       button:'Pagar'
      ,buttonAlt: "Total"
      ,subtotal: 'Total:'
-     ,empty: 'No hay productos en el carrito'
+     ,empty: 'No hay productos añadidos al carrito'
     }
     });   
   </script

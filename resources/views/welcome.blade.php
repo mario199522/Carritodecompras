@@ -1,4 +1,4 @@
-<!doctype html>
+<doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -83,19 +83,18 @@
                      </nav>
                        
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-
+                        <a href="{{ route('login') }}"> <strong>Iniciar Sesión</strong></a>
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Registrarse</a>
+                            <a href="{{ route('register') }}"><strong>Registrarse</strong></a>
                         @endif
                     @endauth
                 </div>
             @endif
         </div>
-        <div class="container">
+        <div class="container" class="img-fluid" alt="Responsive image">
 <div class="jumbotron"style="background-image: url(img/balonportada.jpg); background-size: 50%" >
   <h1  style="color: white" class="display-4" >Bienvenidos!</h1>
-  <p style="color: white" class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p style="color: white" class="lead">Marca Gol todo en deporte.</p>
 </div>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold"></a></p>
     </div>
@@ -113,7 +112,7 @@
      </p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa1.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="img-fluid" alt="Responsive image" width="200" height="250" src="img/camisa1.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>
@@ -127,7 +126,7 @@
           <p class="mb-auto">Combina detalles del equipo con un tejido supertranspirable para mantener la frescura y la transpirabilidad en el campo o en las gradas cuando animas a tu equipo.</p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa2.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="img-fluid" alt="Responsive image"width="200" height="250" src="img/camisa2.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>
@@ -149,7 +148,7 @@
           <p class="card-text mb-auto"> La camiseta FFF 2019 Stadium Home está confeccionada con un tejido transpirable que capilariza el sudor para mantener la frescura, la transpirabilidad.</p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="" width="200" height="250" src="img/camisa3.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="img-fluid" alt="Responsive image" width="200" height="250" src="img/camisa3.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>
@@ -165,7 +164,7 @@
           <p class="mb-auto">Incorpora detalles, como un escudo tejido, que destacan el orgullo por tu equipo. Además, también cuenta con elementos de alto rendimiento como el tejido Nike Breathe</p>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="img/camisa4.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+          <img class="img-fluid" alt="Responsive image" width="200" height="250" src="img/camisa4.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title></title><rect width="100%" height="100%" fill="#55595c"></rect></img>
         </div>
       </div>
     </div>
